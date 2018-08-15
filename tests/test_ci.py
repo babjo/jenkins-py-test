@@ -1,2 +1,5 @@
+import ci
+
+
 def test_ci():
-    assert 1 == 1
+    assert ci.add(1, 2) == 3
